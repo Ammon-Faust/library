@@ -43,3 +43,9 @@ body {
 #login:active {
     background-color: rgb(235, 235, 235);
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

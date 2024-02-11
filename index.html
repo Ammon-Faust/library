@@ -16,7 +16,29 @@
             <button id="login">Log in</button>
         </div>
         <div class="content">
-            <div class="book"></div>
+            <div id="form-card">
+                <form name="book-form" id="book-form">
+                    <div id="form-columns">
+                        <div id="left">
+                            <label for="book-title" class="label-title">Book Title</label><br>
+                            <input type="text" id="book-title" class="input-title" name="book-title" size="20rem">
+                        </div>
+    
+                        <div id="middle">
+                            <label for="book-author" id="middle" class="label-author">Author</label><br>
+                            <input type="text" id="book-author" id="middle" class="input-author" name="book-author" size="20rem">
+                        </div>
+    
+                        <div id="right">
+                            <label for="read" id="right" class="label-read">Read</label><br>
+                            <select id="read" id="right" name="read" class="input-read" size="1rem">
+                                <option value="read">Read</option>
+                                <option value="read">Not read</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
         <div class="footer">
             <h3 id="copyright">Copyright © 2024 Ammon-Faust</h3>

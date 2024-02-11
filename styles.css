@@ -4,3 +4,42 @@ body {
     min-height: 100vh;
     background-color: #e9ecef;
 }
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 10fr .5fr;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 4fr 1fr 10fr 1fr 4fr;
+    background-color: white;
+    -webkit-box-shadow: 1px 2px 14px 6px rgba(0,0,0,0.10); 
+    box-shadow: 1px 2px 14px 6px rgba(0,0,0,0.10);
+    align-items: center;
+}
+
+#library {
+    grid-column: 2 / 3;
+}
+
+#login {
+    grid-column: 4 / 5;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    height: 55px;
+    width: 85px;
+}
+
+#login:hover {
+    background-color: #e9ecef;
+}
+
+#login:active {
+    background-color: rgb(235, 235, 235);
+}

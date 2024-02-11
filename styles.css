@@ -85,7 +85,7 @@ body {
 
 .input-author, .input-title, .input-read {
     border-radius: 5px;
-    border: solid 2px;
+    border: none;
     font-size: 1rem;
     font-weight: bolder;
     background-color: #e9ecef;
